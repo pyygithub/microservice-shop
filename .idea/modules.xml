@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice-shop.iml" filepath="$PROJECT_DIR$/.idea/microservice-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-api/microservice-shop-api.iml" filepath="$PROJECT_DIR$/microservice-shop-api/microservice-shop-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-common/microservice-shop-common.iml" filepath="$PROJECT_DIR$/microservice-shop-common/microservice-shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-eurekaserver/microservice-shop-eurekaserver.iml" filepath="$PROJECT_DIR$/microservice-shop-eurekaserver/microservice-shop-eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-member/microservice-shop-member.iml" filepath="$PROJECT_DIR$/microservice-shop-member/microservice-shop-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-member-api/microservice-shop-member-api.iml" filepath="$PROJECT_DIR$/microservice-shop-member-api/microservice-shop-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" filepath="$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" />
+    </modules>
+  </component>
+</project>

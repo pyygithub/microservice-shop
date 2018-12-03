@@ -1,0 +1,20 @@
+server:
+  port: 8001
+#  context-path: /member
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: member
+
+  redis:
+    host: 192.168.43.23
+    password:
+    port: 6379
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1

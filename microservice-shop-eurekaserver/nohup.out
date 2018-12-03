@@ -1,0 +1,287 @@
+2018-12-03 19:26:23.661  INFO 26177 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b05039f: startup date [Mon Dec 03 19:26:23 CST 2018]; root of context hierarchy
+2018-12-03 19:26:24.398  INFO 26177 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-03 19:26:24.510  INFO 26177 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca537394] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.3.RELEASE)
+
+2018-12-03 19:26:26.318  INFO 26177 --- [           main] com.wolf.app.EurekaServerApplication     : No active profile set, falling back to default profiles: default
+2018-12-03 19:26:26.356  INFO 26177 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@735b5592: startup date [Mon Dec 03 19:26:26 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2b05039f
+2018-12-03 19:26:28.248  INFO 26177 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-03 19:26:29.556  INFO 26177 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a1415dbf-1b7c-3f2b-bcb6-f564dc481db1
+2018-12-03 19:26:29.655  INFO 26177 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-03 19:26:30.086  INFO 26177 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$e06616d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-03 19:26:30.322  INFO 26177 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca537394] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-03 19:26:31.003  INFO 26177 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8761 (http)
+2018-12-03 19:26:31.053  INFO 26177 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-12-03 19:26:31.059  INFO 26177 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-12-03 19:26:31.238  INFO 26177 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-03 19:26:31.238  INFO 26177 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4882 ms
+2018-12-03 19:26:33.183  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-12-03 19:26:33.183  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-03 19:26:33.183  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-03 19:26:33.183  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-03 19:26:33.184  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-03 19:26:33.185  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestTraceFilter' to: [/*]
+2018-12-03 19:26:33.185  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2018-12-03 19:26:33.185  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-12-03 19:26:33.185  INFO 26177 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-03 19:26:33.457  INFO 26177 --- [ost-startStop-1] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2018-12-03 19:26:33.727  INFO 26177 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-12-03 19:26:33.730  INFO 26177 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-12-03 19:26:34.169  INFO 26177 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-12-03 19:26:34.170  INFO 26177 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-12-03 19:26:37.649  INFO 26177 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@735b5592: startup date [Mon Dec 03 19:26:26 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2b05039f
+2018-12-03 19:26:38.318  INFO 26177 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-03 19:26:38.320  INFO 26177 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-03 19:26:38.336  INFO 26177 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-12-03 19:26:38.340  INFO 26177 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-12-03 19:26:38.582  INFO 26177 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-03 19:26:38.583  INFO 26177 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-03 19:26:38.781  INFO 26177 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-03 19:26:41.313  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-12-03 19:26:41.314  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-12-03 19:26:41.315  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-12-03 19:26:41.316  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-12-03 19:26:41.318  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.333  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-12-03 19:26:41.334  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.335  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2018-12-03 19:26:41.336  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2018-12-03 19:26:41.337  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-12-03 19:26:41.339  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-12-03 19:26:41.340  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.341  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-12-03 19:26:41.346  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-12-03 19:26:41.350  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.353  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.354  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.355  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.358  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-12-03 19:26:41.359  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-03 19:26:41.359  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.360  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.361  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.364  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-12-03 19:26:41.381  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-12-03 19:26:41.384  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:41.385  INFO 26177 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-12-03 19:26:42.055  INFO 26177 --- [           main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@735b5592: startup date [Mon Dec 03 19:26:26 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2b05039f] and template loader path [classpath:/templates/]
+2018-12-03 19:26:42.056  INFO 26177 --- [           main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-12-03 19:26:42.469  WARN 26177 --- [           main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2018-12-03 19:26:42.515  WARN 26177 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-03 19:26:42.517  INFO 26177 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-03 19:26:42.572  WARN 26177 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-03 19:26:42.573  INFO 26177 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-03 19:26:42.808  INFO 26177 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-12-03 19:26:42.947  INFO 26177 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-12-03 19:26:42.947  INFO 26177 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-12-03 19:26:42.974  INFO 26177 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1543836402973 with initial instances count: 0
+2018-12-03 19:26:43.236  INFO 26177 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2018-12-03 19:26:43.242  INFO 26177 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2018-12-03 19:26:43.657  INFO 26177 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-12-03 19:26:43.658  INFO 26177 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-12-03 19:26:43.658  INFO 26177 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-12-03 19:26:43.658  INFO 26177 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-12-03 19:26:43.988  INFO 26177 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2018-12-03 19:26:44.003  INFO 26177 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2018-12-03 19:26:44.004  INFO 26177 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2018-12-03 19:26:44.382  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-03 19:26:44.452  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-12-03 19:26:44.457  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-12-03 19:26:44.457  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-12-03 19:26:44.458  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-12-03 19:26:44.459  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2018-12-03 19:26:44.461  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-12-03 19:26:44.475  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-12-03 19:26:44.502  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-12-03 19:26:44.526  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2018-12-03 19:26:44.546  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-12-03 19:26:44.586  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=735b5592,type=ConfigurationPropertiesRebinder]
+2018-12-03 19:26:44.593  INFO 26177 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-12-03 19:26:44.872  INFO 26177 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-12-03 19:26:44.873  INFO 26177 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application unknown with eureka with status UP
+2018-12-03 19:26:44.977  INFO 26177 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-12-03 19:26:44.977  INFO 26177 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2018-12-03 19:26:44.978  INFO 26177 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2018-12-03 19:26:44.978  INFO 26177 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2018-12-03 19:26:45.021  INFO 26177 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2018-12-03 19:26:45.022  INFO 26177 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2018-12-03 19:26:45.022  INFO 26177 --- [      Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2018-12-03 19:26:45.022  INFO 26177 --- [      Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2018-12-03 19:26:45.023  INFO 26177 --- [      Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2018-12-03 19:26:45.046  INFO 26177 --- [      Thread-13] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2018-12-03 19:26:45.294  INFO 26177 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8761 (http)
+2018-12-03 19:26:45.296  INFO 26177 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2018-12-03 19:26:45.323  INFO 26177 --- [           main] com.wolf.app.EurekaServerApplication     : Started EurekaServerApplication in 23.577 seconds (JVM running for 24.252)
+2018-12-03 19:27:45.029  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 19:28:45.033  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 19:29:45.038  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 19:30:45.046  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:31:45.051  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 19:32:45.055  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 19:33:45.059  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 19:34:45.065  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 19:35:45.072  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 19:36:45.075  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 19:37:45.080  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 19:38:45.085  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 19:39:45.092  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 19:40:45.096  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 19:41:44.054  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2018-12-03 19:41:45.102  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 19:42:45.110  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:43:45.117  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:44:45.121  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 19:45:45.124  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 19:46:45.132  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:47:45.140  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-03 19:48:45.146  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 19:49:45.153  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 19:50:45.157  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 19:51:45.163  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 19:52:45.168  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 19:53:45.171  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 19:54:45.177  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 19:55:45.184  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:55:54.413  INFO 26177 --- [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-03 19:55:54.414  INFO 26177 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-03 19:55:54.738  INFO 26177 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 321 ms
+2018-12-03 19:55:55.868  INFO 26177 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=false)
+2018-12-03 19:55:58.030  INFO 26177 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=true)
+2018-12-03 19:56:44.101  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2018-12-03 19:56:45.192  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:57:45.200  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:57:59.925  INFO 26177 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=false)
+2018-12-03 19:57:59.945  INFO 26177 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=false)
+2018-12-03 19:58:00.447  INFO 26177 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=true)
+2018-12-03 19:58:00.455  INFO 26177 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=true)
+2018-12-03 19:58:20.120  INFO 26177 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=false)
+2018-12-03 19:58:20.635  INFO 26177 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=true)
+2018-12-03 19:58:45.206  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 19:59:45.213  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 20:00:35.982  INFO 26177 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=false)
+2018-12-03 20:00:35.983  INFO 26177 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=false)
+2018-12-03 20:00:36.498  WARN 26177 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: MEMBER/10.136.197.212:member:8001
+2018-12-03 20:00:36.498  INFO 26177 --- [nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): MEMBER - 10.136.197.212:member:8001
+2018-12-03 20:00:36.499  INFO 26177 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=true)
+2018-12-03 20:00:36.500  WARN 26177 --- [et_localhost-14] c.n.eureka.cluster.ReplicationTask       : The replication of task MEMBER/10.136.197.212:member:8001:Cancel@localhost failed with response code 404
+2018-12-03 20:00:36.500  WARN 26177 --- [et_localhost-14] c.netflix.eureka.cluster.PeerEurekaNode  : MEMBER/10.136.197.212:member:8001:Cancel@localhost: missing entry.
+2018-12-03 20:00:45.214  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:00:57.757  INFO 26177 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=false)
+2018-12-03 20:00:58.286  INFO 26177 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=true)
+2018-12-03 20:01:45.219  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:02:45.223  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:03:45.229  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:04:45.234  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:05:45.241  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:06:45.247  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:07:45.253  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:08:45.258  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:09:45.261  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 20:10:45.267  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:11:44.148  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2018-12-03 20:11:45.274  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:12:45.280  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:13:45.286  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:14:45.292  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:15:45.299  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:16:45.306  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:17:45.314  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-03 20:18:45.319  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:19:45.324  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:20:10.662  INFO 26177 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=false)
+2018-12-03 20:20:10.666  INFO 26177 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=false)
+2018-12-03 20:20:11.170  INFO 26177 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=true)
+2018-12-03 20:20:11.170  INFO 26177 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=true)
+2018-12-03 20:20:30.126  INFO 26177 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=false)
+2018-12-03 20:20:30.636  INFO 26177 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status UP (replication=true)
+2018-12-03 20:20:45.332  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:21:45.340  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-03 20:22:45.348  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-03 20:23:45.354  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:24:45.359  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:25:45.363  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:26:44.199  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2018-12-03 20:26:45.370  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:27:45.377  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:28:45.385  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-03 20:29:45.391  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:30:45.396  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:31:45.400  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:32:45.408  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:33:45.413  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:34:45.419  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:35:45.424  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:36:45.432  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:37:45.437  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 20:38:45.445  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:39:45.451  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:40:45.457  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:41:44.247  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2018-12-03 20:41:45.465  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:42:45.471  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:43:45.475  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 20:44:45.480  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:45:45.487  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:46:45.495  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:47:45.502  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:48:45.508  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:49:24.791  INFO 26177 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=false)
+2018-12-03 20:49:24.797  INFO 26177 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=false)
+2018-12-03 20:49:25.336  INFO 26177 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=true)
+2018-12-03 20:49:25.342  INFO 26177 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/10.136.197.212:member:8001 with status DOWN (replication=true)
+2018-12-03 20:49:45.513  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 20:49:49.208  INFO 26177 --- [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/wolf:member:8001 with status UP (replication=false)
+2018-12-03 20:49:49.729  INFO 26177 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/wolf:member:8001 with status UP (replication=true)
+2018-12-03 20:50:45.520  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:51:45.528  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:52:45.557  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 26ms
+2018-12-03 20:53:45.564  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:54:45.571  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:55:45.577  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:56:44.294  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2018-12-03 20:56:45.584  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 20:57:45.591  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 20:58:45.596  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 20:59:45.601  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 21:00:45.614  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2018-12-03 21:01:45.617  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 21:02:45.625  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-03 21:03:45.632  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:04:45.638  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:05:45.645  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 21:06:45.653  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 21:07:23.988  INFO 26177 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/wolf:member:8001 with status DOWN (replication=false)
+2018-12-03 21:07:23.994  INFO 26177 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/wolf:member:8001 (replication=false)
+2018-12-03 21:07:24.500  INFO 26177 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/wolf:member:8001 with status DOWN (replication=true)
+2018-12-03 21:07:24.501  INFO 26177 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/wolf:member:8001 (replication=true)
+2018-12-03 21:07:45.660  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:07:45.664  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Evicting 1 items (expired=1, evictionLimit=1)
+2018-12-03 21:07:45.672  WARN 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for MEMBER/10.136.197.212:member:8001
+2018-12-03 21:07:45.680  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MEMBER/10.136.197.212:member:8001 (replication=false)
+2018-12-03 21:07:51.572  INFO 26177 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/wolf:member:8001 with status UP (replication=false)
+2018-12-03 21:07:52.106  INFO 26177 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEMBER/wolf:member:8001 with status UP (replication=true)
+2018-12-03 21:08:45.667  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 21:09:45.673  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 21:10:45.678  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-03 21:11:44.342  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2018-12-03 21:11:45.684  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 21:12:45.690  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:13:45.698  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-03 21:14:45.704  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:15:45.711  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:16:45.719  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-03 21:17:45.725  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:18:45.728  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-03 21:19:45.735  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:20:45.740  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 21:21:45.746  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 21:22:45.751  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-03 21:23:45.758  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-03 21:24:45.766  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms

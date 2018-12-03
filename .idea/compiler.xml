@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-shop-common" />
+        <module name="microservice-shop-eurekaserver" />
+        <module name="microservice-shop-member" />
+        <module name="microservice-shop-member-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-shop-api" target="1.8" />
+      <module name="microservice-shop-common" target="1.8" />
+      <module name="microservice-shop-eurekaserver" target="1.8" />
+      <module name="microservice-shop-member" target="1.8" />
+      <module name="microservice-shop-member-api" target="1.8" />
+      <module name="microservice-shop-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
