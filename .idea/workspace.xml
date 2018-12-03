@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5780d6-1897-4a61-a13d-bce2bd687de8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-api/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/base/BaseRedisService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/base/Result.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/constants/Constants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/log/LogAspectServiceApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/target/classes/com/wolf/base/Result.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/target/classes/com/wolf/constants/Constants.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/target/maven-archiver/pom.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/target/microservice-shop-common-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/target/microservice-shop-common-1.0-SNAPSHOT.jar.original" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/nohup.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/src/main/java/com/wolf/app/EurekaServerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/classes/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/classes/com/wolf/app/EurekaServerApplication.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/maven-archiver/pom.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/microservice-shop-eurekaserver-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/target/microservice-shop-eurekaserver-1.0-SNAPSHOT.jar.original" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member-api/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/service/TestMemberApiService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member-api/target/classes/com/wolf/api/service/TestMemberApiService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/ShopMemberApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/api/service/impl/TestMemberApiServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member/target/classes/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/ShopMemberApplication.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/api/service/impl/TestMemberApiServiceImpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-parent/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-eurekaserver/nohup.out" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/nohup.out" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-shop-parent/target/" />
     <ignored path="$PROJECT_DIR$/microservice-shop-common/target/" />
@@ -83,8 +48,8 @@
       <file leaf-file-name="LogAspectServiceApi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/log/LogAspectServiceApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="169">
+              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -538,12 +503,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543823992270</updated>
-      <workItem from="1543823993970" duration="10819000" />
+      <workItem from="1543823993970" duration="10934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10819000" />
+    <option name="totallyTimeSpent" value="10934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1317" y="-662" width="1280" height="701" extended-state="0" />
@@ -736,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/log/LogAspectServiceApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="169">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
