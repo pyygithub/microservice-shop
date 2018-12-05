@@ -20,7 +20,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-@MapperScan("com.wolf.mq.mapper")
+@MapperScan("com.wolf.mapper")
 @EnableTransactionManagement
 @EnableScheduling
 @EnableRabbit
@@ -29,18 +29,6 @@ import java.util.List;
 @Api(description="RabbitMQ领域服务的API接口")
 public class RabbitmqApplication {
 
-    @Bean
-    @LoadBalanced
-    public RestTemplate restTemplate()
-    {
-        //构造器中指定编码格式
-        List<HttpMessageConverter<?>> messageConverters = new ArrayList<HttpMessageConverter<?>>();
-        messageConverters.add(new StringHttpMessageConverter(StandardCharsets.UTF_8));
-        messageConverters.add(new AllEncompassingFormHttpMessageConverter());
-        messageConverters.add(new MappingJackson2HttpMessageConverter());
-        RestTemplate template = new RestTemplate(messageConverters);
-        return template;
-    }
     public static void main(String[] args) {
         SpringApplication.run(RabbitmqApplication.class, args);
     }

@@ -75,5 +75,5 @@ default:
 
 mq:
   messageCodeMap:
-    email_msg: http://pyy-mq-domain/user/test
+    email_msg: http://microservice-shop-message/message/email/send
 

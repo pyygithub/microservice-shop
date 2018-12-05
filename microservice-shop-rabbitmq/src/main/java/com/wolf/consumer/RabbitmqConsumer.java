@@ -9,7 +9,7 @@ import com.wolf.constant.Constants;
 import com.wolf.model.BrokerReceiveMessageLog;
 import com.wolf.service.BrokerReceiveMessageLogService;
 import com.wolf.util.IdGenerateUtil;
-import com.wolf.util.RestCommonService;
+import com.wolf.base.RestCommonService;
 import org.apache.commons.lang3.time.DateUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -85,7 +85,7 @@ public class RabbitmqConsumer {
                             Result result = restCommonService.post(headers, jsonMsg, url);
 
                             // 业务接口消费mq消息异常
-                            if(!"0".equals(result.getCode())) {
+                            if(result.getCode() != 200) {
                                 log.error("调用领域接口异常，url={}", url);
 
                                 // 根据messageId查询消费异常数据记录

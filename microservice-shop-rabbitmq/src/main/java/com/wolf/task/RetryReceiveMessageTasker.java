@@ -8,7 +8,7 @@ import com.wolf.base.Result;
 import com.wolf.constant.Constants;
 import com.wolf.model.BrokerReceiveMessageLog;
 import com.wolf.service.BrokerReceiveMessageLogService;
-import com.wolf.util.RestCommonService;
+import com.wolf.base.RestCommonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
