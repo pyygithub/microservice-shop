@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/microservice-shop-eurekaserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-shop-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-shop-member-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-shop-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-shop-message-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-shop-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-shop-rabbitmq" charset="UTF-8" />
   </component>
 </project>

@@ -8,7 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-eurekaserver/microservice-shop-eurekaserver.iml" filepath="$PROJECT_DIR$/microservice-shop-eurekaserver/microservice-shop-eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-member/microservice-shop-member.iml" filepath="$PROJECT_DIR$/microservice-shop-member/microservice-shop-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-member-api/microservice-shop-member-api.iml" filepath="$PROJECT_DIR$/microservice-shop-member-api/microservice-shop-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-message/microservice-shop-message.iml" filepath="$PROJECT_DIR$/microservice-shop-message/microservice-shop-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-message-api/microservice-shop-message-api.iml" filepath="$PROJECT_DIR$/microservice-shop-message-api/microservice-shop-message-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" filepath="$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-rabbitmq/microservice-shop-rabbitmq.iml" filepath="$PROJECT_DIR$/microservice-shop-rabbitmq/microservice-shop-rabbitmq.iml" />
     </modules>
   </component>
 </project>

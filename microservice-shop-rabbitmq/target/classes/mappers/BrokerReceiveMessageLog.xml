@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wolf.mapper.BrokerReceiveMessageLogMapper">
+
+  <resultMap id="BaseResultMap" type="com.wolf.model.BrokerReceiveMessageLog">
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="message_id" property="messageId" jdbcType="VARCHAR" />
+    <result column="domain_name" property="domainName" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="message_code" property="messageCode" jdbcType="VARCHAR" />
+    <result column="message" property="message" jdbcType="VARCHAR" />
+    <result column="try_count" property="tryCount" jdbcType="INTEGER" />
+    <result column="try_push_count" property="tryPushCount" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="memo" property="memo" jdbcType="VARCHAR" />
+    <result column="next_retry" property="nextRetry" jdbcType="TIMESTAMP" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <insert id="insert" parameterType="com.wolf.model.BrokerReceiveMessageLog">
+    insert into t_broker_receive_message_log(id, message_id, domain_name, url, message_code, message, try_count, try_push_count, status, memo, next_retry, create_time, update_time)
+    values(
+      #{id, jdbcType=VARCHAR},
+      #{messageId, jdbcType=VARCHAR},
+      #{domainName, jdbcType=VARCHAR},
+      #{url, jdbcType=VARCHAR},
+      #{messageCode, jdbcType=VARCHAR},
+      #{message, jdbcType=VARCHAR},
+      #{tryCount, jdbcType=INTEGER},
+      #{tryPushCount, jdbcType=INTEGER},
+      #{status, jdbcType=VARCHAR},
+      #{memo, jdbcType=VARCHAR},
+      #{nextRetry, jdbcType=TIMESTAMP},
+      #{createTime, jdbcType=TIMESTAMP},
+      #{updateTime, jdbcType=TIMESTAMP}
+      )
+  </insert>
+
+  <select id="selectListByParam" parameterType="map" resultMap="BaseResultMap">
+    select
+      id,
+      message_id,
+      domain_name,
+      url,
+      message_code,
+      message,
+      try_count,
+      try_push_count,
+      status,
+      memo,
+      next_retry,
+      create_time,
+      update_time
+    from t_broker_receive_message_log
+    <where>
+      <if test="keyword != null and  keyword != '' ">
+        and (
+          domain_name like CONCAT('%',#{keyword, jdbcType=VARCHAR},'%')
+          or message_code like CONCAT('%',#{keyword, jdbcType=VARCHAR},'%')
+          or url like CONCAT('%',#{keyword, jdbcType=VARCHAR},'%')
+        )
+      </if>
+
+      <if test="start != null and start != ''">
+        and create_time >= #{start, jdbcType=TIMESTAMP}
+      </if>
+
+      <if test="end != null and end != ''">
+        and create_time lt;= #{end, jdbcType=TIMESTAMP}
+      </if>
+    </where>
+
+    order by create_time desc
+
+  </select>
+
+  <select id="query4StatusAndTimeoutMessage" resultMap="BaseResultMap">
+    select
+      id,
+      message_id,
+      domain_name,
+      url,
+      message_code,
+      message,
+      try_count,
+      try_push_count,
+      status,
+      memo,
+      next_retry,
+      create_time,
+      update_time
+    from t_broker_receive_message_log
+    where status = '1' and next_retry &lt;= sysdate()
+  </select>
+
+  <select id="selectByMessageId" resultMap="BaseResultMap">
+    select
+      id,
+      message_id,
+      domain_name,
+      url,
+      message_code,
+      message,
+      try_count,
+      try_push_count,
+      status,
+      memo,
+      next_retry,
+      create_time,
+      update_time
+    from t_broker_receive_message_log
+    where message_id = #{messageId, jdbcType=VARCHAR}
+  </select>
+
+  <select id="selectRePushCount" parameterType="string" resultType="integer">
+    select
+	  DISTINCT
+      try_push_count
+    from t_broker_receive_message_log
+    where message_id = #{messageId, jdbcType=VARCHAR}
+  </select>
+
+  <update id="update4RetryReceive" >
+    update t_broker_receive_message_log
+    set
+      try_count = try_count + 1,
+      update_time = #{updateTime, jdbcType=TIMESTAMP}
+    where id = #{id, jdbcType=VARCHAR}
+  </update>
+
+  <update id="update4RePushReceive" >
+    update t_broker_receive_message_log
+    set
+    try_push_count = try_push_count + 1,
+    update_time = #{updateTime, jdbcType=TIMESTAMP}
+    where message_id = #{messageId, jdbcType=VARCHAR}
+  </update>
+
+  <update id="changeBrokerReceiveMessageLogStatusById">
+    update t_broker_receive_message_log
+    set
+      status = #{status, jdbcType=VARCHAR},
+      update_time = #{updateTime, jdbcType=TIMESTAMP}
+    where id = #{id, jdbcType=VARCHAR}
+  </update>
+
+  <update id="changeBrokerReceiveMessageLogStatusByMessageId">
+    update t_broker_receive_message_log
+    set
+    status = #{status, jdbcType=VARCHAR},
+    update_time = #{updateTime, jdbcType=TIMESTAMP}
+    where message_id = #{messageId, jdbcType=VARCHAR}
+  </update>
+</mapper>

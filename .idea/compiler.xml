@@ -10,6 +10,9 @@
         <module name="microservice-shop-eurekaserver" />
         <module name="microservice-shop-member" />
         <module name="microservice-shop-member-api" />
+        <module name="microservice-shop-message" />
+        <module name="microservice-shop-message-api" />
+        <module name="microservice-shop-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,7 +21,10 @@
       <module name="microservice-shop-eurekaserver" target="1.8" />
       <module name="microservice-shop-member" target="1.8" />
       <module name="microservice-shop-member-api" target="1.8" />
+      <module name="microservice-shop-message" target="1.8" />
+      <module name="microservice-shop-message-api" target="1.8" />
       <module name="microservice-shop-parent" target="1.8" />
+      <module name="microservice-shop-rabbitmq" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

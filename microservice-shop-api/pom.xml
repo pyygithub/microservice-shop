@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>../microservice-shop-member-api</module>
+        <module>../microservice-shop-message-api</module>
     </modules>
 
 </project>

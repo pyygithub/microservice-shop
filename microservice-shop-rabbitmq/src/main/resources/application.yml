@@ -1,0 +1,82 @@
+server:
+  port: 9001
+eureka:
+  client:
+    registerWithEureka: true #是否将自己注册到Eureka服务中，默认为true
+    fetchRegistry: true #是否从Eureka中获取注册信息，默认为true
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+    ip-address: 127.0.0.1 #指定服务使用的ip地址
+    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port} #指定实例id
+spring:
+  application:
+    name: microservice-shop-rabbitmq
+
+  redis:
+    host: 192.168.43.23
+    password:
+    port: 6379
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+
+  #数据库连接信息
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/microservice-member?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+
+  #rabbitmq 配置
+  rabbitmq:
+    host: 192.168.43.23
+    port: 5672
+    username: guest
+    password: guest
+    connection-timeout: 15000
+    publisher-confirms: true
+    publisher-returns: true
+    template:
+      mandatory: true
+    listener:
+      acknowledge-mode: manual
+      concurrency: 1
+      max-concurrency: 50
+
+#公共配置与profiles选择无关
+mybatis:
+  typeAliasesPackage: com.wolf.model
+  mapperLocations: classpath:mappers/*.xml
+
+default:
+  queue: shop-queue
+  exchange: shop-exchange
+  routingkey: shop-routingkey
+
+mq:
+  messageCodeMap:
+    email_msg: http://pyy-mq-domain/user/test
+
+email_msg:
+  subject: xxx提醒您，会员注册成功邮件。
+  text: 恭喜您的账号{},注册成功！
