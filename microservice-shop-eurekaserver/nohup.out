@@ -2728,3 +2728,4 @@
 2018-12-05 10:41:06.045  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
 2018-12-05 10:41:51.705  INFO 26177 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
 2018-12-05 10:42:06.050  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-05 10:43:06.056  INFO 26177 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
