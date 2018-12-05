@@ -20,4 +20,9 @@ public interface Constants {
     /** 系统错误code **/
     Integer HTTP_RES_CODE_500 = 500;
 
+    /** Member token前缀 **/
+    String TOKEN_MEMBER = "TOKEN_MEMBER";
+
+    /** 用户登录有效期30天 **/
+    Long TOKEN_MEMBER_TIME = (long)(60 * 60 * 24 * 30);
 }

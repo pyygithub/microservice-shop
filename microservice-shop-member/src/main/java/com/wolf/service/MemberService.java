@@ -2,12 +2,15 @@ package com.wolf.service;
 
 
 import com.alibaba.fastjson.JSONObject;
+import com.wolf.base.BaseRedisService;
 import com.wolf.base.RestCommonService;
 import com.wolf.base.Result;
+import com.wolf.constants.Constants;
 import com.wolf.dao.MemberDao;
 import com.wolf.entity.UserEntity;
 import com.wolf.exception.MemberException;
 import com.wolf.utils.MD5Util;
+import com.wolf.utils.TokenUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +37,9 @@ public class MemberService {
 
     @Autowired
     private MemberDao memberDao;
+
+    @Autowired
+    private BaseRedisService baseRedisService;
 
     /**
      * 会员注册
@@ -73,5 +79,73 @@ public class MemberService {
         } catch (Exception e) {
             log.error("####会员推送消息异常####, e={}", e);
         }
+    }
+
+    /**
+     * 用户登录
+     *
+     * @param user
+     * @param headers
+     * @return
+     */
+    public JSONObject login(UserEntity user, HttpHeaders headers) {
+        // 1.验证参数
+        String username = user.getUsername();
+        if (StringUtils.isBlank(username)) {
+            throw new MemberException("用户名不能为空");
+        }
+
+        String password = user.getPassword();
+        if (StringUtils.isBlank(password)) {
+            throw new MemberException("用户密码不能为空");
+        }
+        // 2.数据库查询账号密码是否正确
+        String newPassword = MD5Util.MD5(password);
+        UserEntity userEntity = memberDao.login(username, newPassword);
+        if (userEntity == null) {
+            throw new MemberException("用户名或密码错误");
+        }
+        // 3.如果账号正确，对应生成token
+        String memberToken = TokenUtil.getMemberToken();
+
+        // 4.存放在redis中，key为token，value为userId
+        Integer userId = userEntity.getId();
+        log.info("#####用户信息存入到redis中：key={}, value={}", memberToken, userId);
+        baseRedisService.setString(memberToken, userEntity.getId() + "", Constants.TOKEN_MEMBER_TIME);
+
+        // 5.直接返回token
+        JSONObject token = new JSONObject();
+        token.put("token", memberToken);
+        return token;
+    }
+
+    /**
+     * 根据token 获取用户信息
+     *
+     *  补充：核心业务操作该方式就不是很安全
+     *      1. 核心业务操作时可以采用手机验证码验证
+     *      2. 记录登录IP或者绑定手机 和 token做匹配验证
+     *
+     * @param token
+     * @param headers
+     * @return
+     */
+    public UserEntity findUserByToken(String token, HttpHeaders headers) {
+        // 1.验证参数
+        if (StringUtils.isBlank(token)) {
+            throw new MemberException("token不能为空");
+        }
+        // 2.从redis中使用token查询对应的userId
+        String userId = baseRedisService.getString(token);
+        if (StringUtils.isBlank(userId)) {
+            throw new MemberException("token无效或者已经过期");
+        }
+        // 3.使用userId去数据库查询用户信息返回给客户端
+        UserEntity userEntity = memberDao.findByID(Long.valueOf(userId));
+        if (userEntity == null) {
+            throw new MemberException("未查询到用户信息");
+        }
+        userEntity.setPassword(null);
+        return  userEntity;
     }
 }

@@ -29,4 +29,15 @@ public class MemberController {
         return Result.OK("用户注册成功");
     }
 
+    @PostMapping("/login")
+    public Result login(@RequestBody UserEntity user, @RequestHeader HttpHeaders headers) {
+        JSONObject token = memberService.login(user, headers);
+        return Result.OK("用户登录成功", token);
+    }
+
+    @PostMapping("/findUserByToken")
+    public Result findUserByToken(String token, @RequestHeader HttpHeaders headers) {
+        UserEntity userEntity = memberService.findUserByToken(token, headers);
+        return Result.OK(userEntity);
+    }
 }
