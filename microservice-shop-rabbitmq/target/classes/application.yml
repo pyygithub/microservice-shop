@@ -27,7 +27,7 @@ spring:
   #数据库连接信息
   datasource:
     name: test
-    url: jdbc:mysql://127.0.0.1:3306/microservice-member
+    url: jdbc:mysql://127.0.0.1:3306/microservice-member?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
     # 使用druid数据源
@@ -75,8 +75,5 @@ default:
 
 mq:
   messageCodeMap:
-    abc: http://pyy-mq-domain/user/test
+    email_msg: http://pyy-mq-domain/user/test
 
-email_msg:
-  subject: xxx提醒您，会员注册成功邮件。
-  text: 恭喜您的账号{},注册成功！

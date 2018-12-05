@@ -77,6 +77,3 @@ mq:
   messageCodeMap:
     email_msg: http://pyy-mq-domain/user/test
 
-email_msg:
-  subject: xxx提醒您，会员注册成功邮件。
-  text: 恭喜您的账号{},注册成功！
