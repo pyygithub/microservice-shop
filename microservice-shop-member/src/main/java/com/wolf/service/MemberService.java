@@ -170,8 +170,18 @@ public class MemberService {
         if (userEntity == null) {
             throw new MemberException(Constants.HTTP_RES_CODE_201, "用户未授权QQ登录");
         }
-        // 3.自动登录
-        return this.login(userEntity, headers);
+        // 3.如果查询成，生成对应生成token
+        String memberToken = TokenUtil.getMemberToken();
+
+        // 4.存放在redis中，key为token，value为userId
+        Integer userId = userEntity.getId();
+        log.info("#####用户信息存入到redis中：key={}, value={}", memberToken, userId);
+        baseRedisService.setString(memberToken, userEntity.getId() + "", Constants.TOKEN_MEMBER_TIME);
+
+        // 5.直接返回token
+        JSONObject token = new JSONObject();
+        token.put("token", memberToken);
+        return token;
     }
 
     /**
@@ -197,7 +207,7 @@ public class MemberService {
             throw new MemberException("用户名或密码错误");
         }
         // 3.如果登录成功，修改数据对应的openid
-        Integer ret = memberDao.updateUserByOpenId(userEntity.getOpenid(), userEntity.getId());
+        Integer ret = memberDao.updateUserByOpenId(user.getOpenid(), userEntity.getId());
         if (ret <= 0 ) {
             throw new MemberException("QQ账号关联失败");
         }

@@ -27,9 +27,6 @@ public interface MemberApi {
     @GetMapping("/findUserByOpenId")
     public Result findUserByOpenId(@RequestParam("openId") String openId, @RequestHeader HttpHeaders headers);
 
-    @PostMapping("/openidRelationUserId")
-    public Result qqLoginOpenId(@RequestBody UserEntity user, @RequestHeader HttpHeaders headers);
-
     @PostMapping("/qqRelation")
-    public Result openidRelationUserId(@RequestBody UserEntity user, @RequestHeader HttpHeaders headers);
+    public Result qqRelation(@RequestBody UserEntity user, @RequestHeader HttpHeaders headers);
 }

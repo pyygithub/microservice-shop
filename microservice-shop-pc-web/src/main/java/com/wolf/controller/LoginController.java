@@ -158,8 +158,8 @@ public class LoginController {
              return ERROR;
         }
         userEntity.setOpenid(openId);
-        // 2.调用登录接口，获取token信息
-        Result result = memberApiFeign.qqLoginOpenId(userEntity, headers);
+        // 2.调用关联接口，获取token信息
+        Result result = memberApiFeign.qqRelation(userEntity, headers);
         if (!result.getCode().equals(Constants.HTTP_RES_CODE_200)) {
             request.setAttribute("error", "账号或密码错误");
             return LOGIN_VIEW;
