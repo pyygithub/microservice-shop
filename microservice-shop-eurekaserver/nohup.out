@@ -5653,3 +5653,101 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.dataformat.xm
 2018-12-06 18:22:40.579  INFO 84562 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-MEMBER/192.168.43.63:microservice-shop-member:8001 with status UP (replication=true)
 2018-12-06 18:22:47.922  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
 2018-12-06 18:23:47.929  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:24:47.936  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:25:33.307  INFO 84562 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=false)
+2018-12-06 18:25:33.320  INFO 84562 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=false)
+2018-12-06 18:25:33.374  WARN 84562 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: MICROSERVICE-SHOP-PC-WEB - 192.168.43.63:microservice-shop-pc-web:9999
+2018-12-06 18:25:33.376  WARN 84562 --- [nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): MICROSERVICE-SHOP-PC-WEB - 192.168.43.63:microservice-shop-pc-web:9999
+2018-12-06 18:25:33.379  INFO 84562 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=true)
+2018-12-06 18:25:33.383  INFO 84562 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=true)
+2018-12-06 18:25:33.390  WARN 84562 --- [et_localhost-12] c.n.eureka.cluster.ReplicationTask       : The replication of task MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999:Heartbeat@localhost failed with response code 404
+2018-12-06 18:25:33.391  WARN 84562 --- [et_localhost-12] c.netflix.eureka.cluster.PeerEurekaNode  : MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999:Heartbeat@localhost: missing entry.
+2018-12-06 18:25:33.391  WARN 84562 --- [et_localhost-12] c.netflix.eureka.cluster.PeerEurekaNode  : MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999:Heartbeat@localhost: cannot find instance id 192.168.43.63:microservice-shop-pc-web:9999 and hence replicating the instance with status UP
+2018-12-06 18:25:33.907  INFO 84562 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=true)
+2018-12-06 18:25:47.947  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-12-06 18:25:59.305  INFO 84562 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=false)
+2018-12-06 18:25:59.833  INFO 84562 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=true)
+2018-12-06 18:26:47.951  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-06 18:27:47.957  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:28:47.965  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:29:47.972  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:30:47.979  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:31:47.986  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:32:47.992  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:33:47.997  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-06 18:34:48.004  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:35:48.011  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:36:46.201  INFO 84562 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2018-12-06 18:36:48.018  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:37:48.026  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:38:48.034  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:39:48.039  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:40:48.046  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:41:48.053  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:42:48.058  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-06 18:43:48.066  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:44:44.177  INFO 84562 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=false)
+2018-12-06 18:44:44.178  INFO 84562 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=false)
+2018-12-06 18:44:44.695  INFO 84562 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=true)
+2018-12-06 18:44:44.698  INFO 84562 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=true)
+2018-12-06 18:44:48.073  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:45:03.942  INFO 84562 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=false)
+2018-12-06 18:45:04.466  INFO 84562 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=true)
+2018-12-06 18:45:48.081  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:46:48.087  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:47:48.095  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-06 18:48:48.103  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:49:48.106  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-12-06 18:50:48.113  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:51:46.255  INFO 84562 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2018-12-06 18:51:48.119  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:52:48.126  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:53:48.133  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 18:54:48.139  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:55:48.145  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-06 18:56:48.151  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:57:48.159  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-06 18:58:48.166  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 18:59:48.171  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-06 19:00:48.183  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-12-06 19:01:48.191  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-06 19:02:48.197  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:03:48.204  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:04:48.211  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:05:48.217  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:06:46.287  INFO 84562 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2018-12-06 19:06:48.222  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-06 19:07:48.229  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:08:48.236  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:09:48.244  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:10:48.252  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-06 19:11:48.257  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-06 19:12:48.263  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:13:48.271  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:14:48.279  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:15:48.286  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-12-06 19:16:48.292  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:17:48.298  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:18:48.306  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:19:48.311  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-12-06 19:19:54.227  INFO 84562 --- [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=false)
+2018-12-06 19:19:54.228  INFO 84562 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=false)
+2018-12-06 19:19:54.747  INFO 84562 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=true)
+2018-12-06 19:19:54.750  INFO 84562 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=true)
+2018-12-06 19:20:48.317  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-12-06 19:21:46.336  INFO 84562 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2018-12-06 19:21:48.322  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-06 19:21:48.323  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Evicting 1 items (expired=1, evictionLimit=1)
+2018-12-06 19:21:48.326  WARN 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999
+2018-12-06 19:21:48.328  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=false)
+2018-12-06 19:22:11.873  INFO 84562 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=false)
+2018-12-06 19:22:12.295  INFO 84562 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=true)
+2018-12-06 19:22:48.330  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:23:48.335  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-12-06 19:24:38.930  INFO 84562 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=false)
+2018-12-06 19:24:38.931  INFO 84562 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=false)
+2018-12-06 19:24:39.297  INFO 84562 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status DOWN (replication=true)
+2018-12-06 19:24:39.297  INFO 84562 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 (replication=true)
+2018-12-06 19:24:48.343  INFO 84562 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-12-06 19:24:50.955  INFO 84562 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=false)
+2018-12-06 19:24:51.465  INFO 84562 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE-SHOP-PC-WEB/192.168.43.63:microservice-shop-pc-web:9999 with status UP (replication=true)

@@ -37,7 +37,7 @@ public class MemberController {
     }
 
     @PostMapping("/findUserByToken")
-    public Result findUserByToken(String token, @RequestHeader HttpHeaders headers) {
+    public Result findUserByToken(@RequestParam String token, @RequestHeader HttpHeaders headers) {
         UserEntity userEntity = memberService.findUserByToken(token, headers);
         return Result.OK(userEntity);
     }

@@ -58,7 +58,6 @@ public class RegisterController {
         }
 
         // 4.如果成功，跳转到成功页面
-
-        return REGISTER_VIEW;
+        return LOGIN_VIEW;
     }
 }

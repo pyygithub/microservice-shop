@@ -23,6 +23,13 @@ public interface Constants {
     /** Member token前缀 **/
     String TOKEN_MEMBER = "TOKEN_MEMBER";
 
-    /** 用户登录有效期30天 **/
+    /** 用户登录token有效期30天 **/
     Long TOKEN_MEMBER_TIME = (long)(60 * 60 * 24 * 30);
+
+    /** 用户登录cookie有效期30天 **/
+    int COOKIE_TOKEN_MEMBER_TIME = 60 * 60 * 24 * 29;
+
+
+    /** cookie token名称 **/
+    String COOKIE_MEMBER_TOKEN = "cookie_member_token";
 }
