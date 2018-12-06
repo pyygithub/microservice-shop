@@ -26,7 +26,7 @@ import org.springframework.web.client.RestTemplate;
  * @Modified Date: 2018-04-08 16:11
  */
 
-@Service("mqRestCommonService")
+@Service
 public class RestCommonService {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());

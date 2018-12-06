@@ -2,6 +2,7 @@ package com.wolf.controller;
 
 
 import com.alibaba.fastjson.JSONObject;
+import com.wolf.api.MemberApi;
 import com.wolf.base.RestCommonService;
 import com.wolf.base.Result;
 import com.wolf.dao.MemberDao;

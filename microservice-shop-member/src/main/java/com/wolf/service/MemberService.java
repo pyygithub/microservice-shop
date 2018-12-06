@@ -29,7 +29,7 @@ public class MemberService {
 
     private static final String MESSAGE_SECNE = "会员注册";// 场景名称
 
-    @Value("${spring.application.name")
+    @Value("${spring.application.name}")
     private String domainName;
 
     @Autowired
@@ -75,9 +75,13 @@ public class MemberService {
             log.info("####会员服务推送消息到Rabbitmq#####");
             log.info("####消息内容：msg={}", msg);
             String url = MICROSERVICE_SHOP_RABBITMQ_HTTP_PREFIX + "/v1/rabbitmq/sendToDefaultExchange?domainName={domainName}&messageSecne={messageSecne}";
-            restCommonService.post(headers, msg, url, domainName, MESSAGE_SECNE);
+            Result result = restCommonService.post(headers, msg, url, domainName, MESSAGE_SECNE);
+            if (result.getCode().equals(Constants.HTTP_RES_CODE_200)) {
+                log.info("####消息推送Rabbitmq异常####,e={}", result.getMsg());
+            }
         } catch (Exception e) {
-            log.error("####会员推送消息异常####, e={}", e);
+            e.printStackTrace();
+            log.error("####会员推送消息异常####");
         }
     }
 

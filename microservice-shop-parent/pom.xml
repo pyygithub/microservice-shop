@@ -13,7 +13,7 @@
         <module>../microservice-shop-api</module>
         <module>../microservice-shop-member</module>
         <module>../microservice-shop-message</module>
-        <module>../microservice-shop-message</module>
+        <module>../microservice-shop-pc-web</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -40,11 +40,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-        <!-- 集成redis -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
+
         <!-- 集成aop -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -55,16 +51,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- springboot整合activemq -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-activemq</artifactId>
-        </dependency>
-        <!-- 集成发送邮件-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>
+
         <!-- 集成mysql -->
         <dependency>
             <groupId>mysql</groupId>
@@ -147,12 +134,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.dataformat</groupId>
-                    <artifactId>jackson-dataformat-xml</artifactId>
-                </exclusion>
-            </exclusions>
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>com.fasterxml.jackson.dataformat</groupId>-->
+                    <!--<artifactId>jackson-dataformat-xml</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
         </dependency>
 
         <dependency>

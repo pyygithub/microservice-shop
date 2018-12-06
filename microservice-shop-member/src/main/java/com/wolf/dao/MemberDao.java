@@ -11,7 +11,7 @@ public interface MemberDao {
     @Select("select  id,username,password,phone,email,created,updated from mb_user where id =#{userId}")
     UserEntity findByID(@Param("userId") Long userId);
 
-    @Insert("INSERT  INTO `mb_user`  (username,password,phone,email,created,updated) VALUES (#{username}, #{password},#{phone},#{email},#{created},#{updated});")
+    @Insert("INSERT  INTO `mb_user`  (username,password,phone,email,created,updated) VALUES (#{username}, #{password},#{phone},#{email}, now(), now());")
     Integer insertUser(UserEntity userEntity);
 
     @Select("select  id,username,password,phone,email,created,updated from mb_user where username =#{username} and password = #{password}")

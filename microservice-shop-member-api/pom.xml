@@ -12,7 +12,6 @@
 
     <artifactId>microservice-shop-member-api</artifactId>
 
-
     <dependencies>
         <!-- 引入microservice-shop-common依赖 -->
         <dependency>

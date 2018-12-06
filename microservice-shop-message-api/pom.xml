@@ -13,4 +13,16 @@
     <artifactId>microservice-shop-message-api</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.wolf</groupId>
+            <artifactId>microservice-shop-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 集成发送邮件-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+    </dependencies>
 </project>
