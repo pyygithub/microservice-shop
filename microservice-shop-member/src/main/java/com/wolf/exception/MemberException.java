@@ -15,9 +15,12 @@ public class MemberException extends RuntimeException{
 
     public MemberException(String msg) {
         super(msg);
+        this.msg = msg;
     }
 
     public MemberException(int code, String msg) {
         super(msg);
+        this.code = code;
+        this.msg = msg;
     }
 }

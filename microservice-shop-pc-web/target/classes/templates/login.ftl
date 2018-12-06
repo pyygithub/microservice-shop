@@ -91,7 +91,7 @@
 						<ul>
 							<li><a href="/plugin.html?mod=oauth&c=wx" class="wx">微信</a></li>
 
-							<li><a href="http://127.0.0.1/locaQQLogin" class="qq">QQ</a></li>
+							<li><a href="http://127.0.0.1:9999/locaQQLogin" class="qq">QQ</a></li>
 
 						</ul>
 

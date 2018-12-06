@@ -32,4 +32,9 @@ public interface Constants {
 
     /** cookie token名称 **/
     String COOKIE_MEMBER_TOKEN = "cookie_member_token";
+
+    /** qq 账号未关联 **/
+    int HTTP_RES_CODE_201 = 201;
+    /** SESSION_QQ_OPENID **/
+    String SESSION_QQ_OPENID = "qqOpenid";
 }

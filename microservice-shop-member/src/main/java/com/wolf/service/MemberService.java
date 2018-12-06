@@ -152,4 +152,66 @@ public class MemberService {
         userEntity.setPassword(null);
         return  userEntity;
     }
+
+    /**
+     * 根据openId查询用户信息
+     *
+     * @param openId
+     * @param headers
+     * @return
+     */
+    public JSONObject findUserByOpenId(String openId, HttpHeaders headers) {
+        // 1.验证参数
+        if (StringUtils.isBlank(openId)) {
+            throw new MemberException("系统错误！openid获取失败");
+        }
+        // 2.使用openid查询数据库对应的用户信息
+        UserEntity userEntity = memberDao.findUserByOpenId(openId);
+        if (userEntity == null) {
+            throw new MemberException(Constants.HTTP_RES_CODE_201, "用户未授权QQ登录");
+        }
+        // 3.自动登录
+        return this.login(userEntity, headers);
+    }
+
+    /**
+     * openid关联userId
+     *
+     * @param user
+     * @param headers
+     */
+    public JSONObject openidRelationUserId(UserEntity user, HttpHeaders headers) {
+        // 1.验证参数
+        String username = user.getUsername();
+        if (StringUtils.isBlank(username)) {
+            throw new MemberException("用户名不能为空");
+        }
+        String password = user.getPassword();
+        if (StringUtils.isBlank(password)) {
+            throw new MemberException("用户密码不能为空");
+        }
+        // 2.数据库查询账号密码是否正确
+        String newPassword = MD5Util.MD5(password);
+        UserEntity userEntity = memberDao.login(username, newPassword);
+        if (userEntity == null) {
+            throw new MemberException("用户名或密码错误");
+        }
+        // 3.如果登录成功，修改数据对应的openid
+        Integer ret = memberDao.updateUserByOpenId(userEntity.getOpenid(), userEntity.getId());
+        if (ret <= 0 ) {
+            throw new MemberException("QQ账号关联失败");
+        }
+        // 4.如果账号正确，对应生成token
+        String memberToken = TokenUtil.getMemberToken();
+
+        // 5.存放在redis中，key为token，value为userId
+        Integer userId = userEntity.getId();
+        log.info("#####用户信息存入到redis中：key={}, value={}", memberToken, userId);
+        baseRedisService.setString(memberToken, userEntity.getId() + "", Constants.TOKEN_MEMBER_TIME);
+
+        // 6.直接返回token
+        JSONObject token = new JSONObject();
+        token.put("token", memberToken);
+        return token;
+    }
 }

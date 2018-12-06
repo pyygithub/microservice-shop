@@ -33,5 +33,12 @@
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
 
+
+        <!-- 引入qq互联依赖 -->
+        <dependency>
+            <groupId>com.sdk4j</groupId>
+            <artifactId>sdk4j</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 </project>

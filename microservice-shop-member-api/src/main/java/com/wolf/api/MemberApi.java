@@ -23,4 +23,13 @@ public interface MemberApi {
 
     @PostMapping("/findUserByToken")
     public Result findUserByToken(@RequestParam("token") String token, @RequestHeader HttpHeaders headers);
+
+    @GetMapping("/findUserByOpenId")
+    public Result findUserByOpenId(@RequestParam("openId") String openId, @RequestHeader HttpHeaders headers);
+
+    @PostMapping("/openidRelationUserId")
+    public Result qqLoginOpenId(@RequestBody UserEntity user, @RequestHeader HttpHeaders headers);
+
+    @PostMapping("/qqRelation")
+    public Result openidRelationUserId(@RequestBody UserEntity user, @RequestHeader HttpHeaders headers);
 }

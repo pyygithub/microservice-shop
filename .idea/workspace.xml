@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5780d6-1897-4a61-a13d-bce2bd687de8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/utils/CookieUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/LoginController.java" />
       <change beforePath="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/constants/Constants.java" afterPath="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/constants/Constants.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-common/target/classes/com/wolf/constants/Constants.class" afterPath="$PROJECT_DIR$/microservice-shop-common/target/classes/com/wolf/constants/Constants.class" />
       <change beforePath="$PROJECT_DIR$/microservice-shop-eurekaserver/nohup.out" afterPath="$PROJECT_DIR$/microservice-shop-eurekaserver/nohup.out" />
       <change beforePath="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java" afterPath="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/entity/UserEntity.java" afterPath="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/entity/UserEntity.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member-api/target/classes/com/wolf/api/MemberApi.class" afterPath="$PROJECT_DIR$/microservice-shop-member-api/target/classes/com/wolf/api/MemberApi.class" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member-api/target/classes/com/wolf/entity/UserEntity.class" afterPath="$PROJECT_DIR$/microservice-shop-member-api/target/classes/com/wolf/entity/UserEntity.class" />
       <change beforePath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java" afterPath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java" />
-      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/IndexController.java" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/IndexController.java" />
-      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/RegisterController.java" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/RegisterController.java" />
-      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/com/wolf/controller/RegisterController.class" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/com/wolf/controller/RegisterController.class" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/dao/MemberDao.java" afterPath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/dao/MemberDao.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/exception/MemberException.java" afterPath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/exception/MemberException.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/service/MemberService.java" afterPath="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/service/MemberService.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/controller/MemberController.class" afterPath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/controller/MemberController.class" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/dao/MemberDao.class" afterPath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/dao/MemberDao.class" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/service/MemberService.class" afterPath="$PROJECT_DIR$/microservice-shop-member/target/classes/com/wolf/service/MemberService.class" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/pom.xml" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/LoginController.java" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/qqconnectconfig.properties" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/qqconnectconfig.properties" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/login.ftl" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/login.ftl" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/com/wolf/controller/LoginController.class" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/com/wolf/controller/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/qqconnectconfig.properties" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/qqconnectconfig.properties" />
+      <change beforePath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/templates/login.ftl" afterPath="$PROJECT_DIR$/microservice-shop-pc-web/target/classes/templates/login.ftl" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-shop-parent/target/" />
     <ignored path="$PROJECT_DIR$/microservice-shop-common/target/" />
@@ -43,67 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/login.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1013">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -112,18 +68,38 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/constants/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state relative-caret-position="481">
+              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/utils/CookieUtil.java">
+      <file leaf-file-name="MemberController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="406">
+              <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberApiFeign.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/feign/MemberApiFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -132,11 +108,9 @@
       <file leaf-file-name="MemberService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/service/MemberService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="121" column="24" lean-forward="false" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="182" column="22" lean-forward="false" selection-start-line="182" selection-start-column="22" selection-end-line="182" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-shop-rabbitmq/src/main/java/com/wolf/mq/task/RetrySendMessageTasker.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/message/api/impl/MemberApiImpl.java" />
         <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/member/dao/ShopMemberApplication.java" />
         <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/member/api/MemberApiImpl.java" />
         <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/member/dao/MemberApiImpl.java" />
@@ -193,35 +165,37 @@
         <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/api/impl/MemberApiImpl.java" />
         <option value="$PROJECT_DIR$/microservice-shop-rabbitmq/src/main/java/com/wolf/RabbitmqApplication.java" />
         <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/exception/MemberControllerAdvice.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/exception/MemberException.java" />
         <option value="$PROJECT_DIR$/microservice-shop-message/src/main/java/com/wolf/exception/MemberControllerAdvice.java" />
         <option value="$PROJECT_DIR$/microservice-shop-message/src/main/java/com/wolf/exception/MessageControllerAdvice.java" />
         <option value="$PROJECT_DIR$/microservice-shop-rabbitmq/src/main/java/com/wolf/consumer/RabbitmqConsumer.java" />
         <option value="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/utils/TokenUtil.java" />
         <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/index.ftl" />
-        <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-shop-pc-web/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/feign/MemberApiFeign.java" />
         <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/ShopPcWebApplication.java" />
         <option value="$PROJECT_DIR$/microservice-shop-message/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-shop-message-api/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-shop-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-shop-member/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-shop-member-api/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/entity/UserEntity.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/dao/MemberDao.java" />
         <option value="$PROJECT_DIR$/microservice-shop-common/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/base/RestCommonService.java" />
         <option value="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/config/RibbonConfig.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/service/MemberService.java" />
         <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/ShopMemberApplication.java" />
         <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/utils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/dao/MemberDao.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-member/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-shop-pc-web/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/login.ftl" />
+        <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/qqconnectconfig.properties" />
+        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/exception/MemberException.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java" />
+        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java" />
         <option value="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/constants/Constants.java" />
         <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java" />
-        <option value="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/utils/CookieUtil.java" />
       </list>
     </option>
   </component>
@@ -328,119 +302,6 @@
             <path>
               <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wolf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wolf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wolf" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wolf" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="MemberController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-shop-pc-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -500,16 +361,10 @@
               <item name="microservice-shop-pc-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wolf" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -546,11 +401,11 @@
       <recent name="com.wolf.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-shop-member/src/main/resources" />
       <recent name="$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/utils" />
       <recent name="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/microservice-shop-message/src/main/java/com/wolf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -707,8 +562,8 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.ShopPcWebApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ShopMessageApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ShopMemberApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ShopMemberApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ShopMessageApplication" />
         <item index="3" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApplication" />
       </list>
     </recent_temporary>
@@ -727,12 +582,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543823992270</updated>
       <workItem from="1543823993970" duration="58773000" />
-      <workItem from="1544079278919" duration="11520000" />
+      <workItem from="1544079278919" duration="20928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70293000" />
+    <option name="totallyTimeSpent" value="79701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1366" y="-662" width="1366" height="702" extended-state="0" />
@@ -750,7 +605,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37688822" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33610272" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -766,6 +621,35 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60273975" sideWeight="0.5030211" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45770392" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6900685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7568493" sideWeight="0.49697885" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33610272" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -775,50 +659,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-shop-rabbitmq/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-rabbitmq/src/main/java/com/wolf/model/BrokerMessageLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-rabbitmq/src/main/java/com/wolf/model/BrokerReceiveMessageLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-rabbitmq/src/main/resources/mappers/BrokerReceiveMessageLog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <marker date="1543993556000" expanded="true" signature="1333:2012" ph="insert into t_broker_receive_message_log... " />
-            <marker date="1543993556000" expanded="true" signature="3049:3360" ph="select id, m... t_broker_receive_message_log" />
-            <marker date="1543993556000" expanded="true" signature="3438:3749" ph="select id, m... t_broker_receive_message_log" />
-            <marker date="1543993556000" expanded="true" signature="3845:3976" ph="select DISTI... t_broker_receive_message_log" />
-            <marker date="1543993556000" expanded="true" signature="4031:4200" ph="update t_broker_receive_message_log... " />
-            <marker date="1543993556000" expanded="true" signature="4256:4446" ph="update t_broker_receive_message_log... " />
-            <marker date="1543993556000" expanded="true" signature="4520:4700" ph="update t_broker_receive_message_log... " />
-            <marker date="1543993556000" expanded="true" signature="4781:4972" ph="update t_broker_receive_message_log... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-shop-message/src/main/java/com/wolf/service/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -848,33 +693,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller.java" />
-    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/static/view/default/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/qqconnectconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -971,24 +785,6 @@
         <state relative-caret-position="150">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/feign/MemberApiFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/dao/MemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="149" lean-forward="false" selection-start-line="13" selection-start-column="149" selection-end-line="13" selection-end-column="149" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,14 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-member/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1122,52 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="121" column="24" lean-forward="false" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1013">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1181,16 +923,8 @@
         <state relative-caret-position="309">
           <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,6 +932,142 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/resources/qqconnectconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/dao/MemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/qqrelation.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="93" column="62" lean-forward="false" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/resources/qqconnectconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/exception/MemberControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/exception/MemberException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="182" column="22" lean-forward="false" selection-start-line="182" selection-start-column="22" selection-end-line="182" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-common/src/main/java/com/wolf/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member/src/main/java/com/wolf/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-member-api/src/main/java/com/wolf/api/MemberApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/feign/MemberApiFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-shop-pc-web/src/main/java/com/wolf/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
           <folding />
         </state>
       </provider>
