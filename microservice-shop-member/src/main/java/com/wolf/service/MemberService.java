@@ -76,8 +76,8 @@ public class MemberService {
             log.info("####消息内容：msg={}", msg);
             String url = MICROSERVICE_SHOP_RABBITMQ_HTTP_PREFIX + "/v1/rabbitmq/sendToDefaultExchange?domainName={domainName}&messageSecne={messageSecne}";
             Result result = restCommonService.post(headers, msg, url, domainName, MESSAGE_SECNE);
-            if (result.getCode().equals(Constants.HTTP_RES_CODE_200)) {
-                log.info("####消息推送Rabbitmq异常####,e={}", result.getMsg());
+            if (!result.getCode().equals(Constants.HTTP_RES_CODE_200)) {
+                log.info("####调用消息服务接口异常，msg={}####", result.getMsg());
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -170,7 +170,7 @@ public class MemberService {
         if (userEntity == null) {
             throw new MemberException(Constants.HTTP_RES_CODE_201, "用户未授权QQ登录");
         }
-        // 3.如果查询成，生成对应生成token
+        // 3.如果查询成功，生成对应生成token
         String memberToken = TokenUtil.getMemberToken();
 
         // 4.存放在redis中，key为token，value为userId

@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" filepath="$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-pc-web/microservice-shop-pc-web.iml" filepath="$PROJECT_DIR$/microservice-shop-pc-web/microservice-shop-pc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-rabbitmq/microservice-shop-rabbitmq.iml" filepath="$PROJECT_DIR$/microservice-shop-rabbitmq/microservice-shop-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-weixin/microservice-shop-weixin.iml" filepath="$PROJECT_DIR$/microservice-shop-weixin/microservice-shop-weixin.iml" />
     </modules>
   </component>
 </project>

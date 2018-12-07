@@ -14,6 +14,7 @@
         <module name="microservice-shop-message-api" />
         <module name="microservice-shop-pc-web" />
         <module name="microservice-shop-rabbitmq" />
+        <module name="microservice-shop-weixin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="microservice-shop-parent" target="1.8" />
       <module name="microservice-shop-pc-web" target="1.8" />
       <module name="microservice-shop-rabbitmq" target="1.8" />
+      <module name="microservice-shop-weixin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
