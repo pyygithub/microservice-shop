@@ -40,7 +40,10 @@ public class DispatcherController {
      * @return
      */
     @GetMapping("/dispatcher")
-    public String dispatcher(String signature, String timestamp, String nonce, String echostr) {
+    public String dispatcher(@RequestParam(name = "signature", required = false) String signature,
+                             @RequestParam(name = "timestamp", required = false) String timestamp,
+                             @RequestParam(name = "nonce", required = false) String nonce,
+                             @RequestParam(name = "echostr", required = false) String echostr) {
         // 1.验证是否是微信来源
         boolean checkSignature = CheckUtil.checkSignature(signature, timestamp, nonce);
         // 2.如果是微信来源 返回 随机数echostr

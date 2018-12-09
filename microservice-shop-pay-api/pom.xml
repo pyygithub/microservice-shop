@@ -3,19 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>microservice-shop-parent</artifactId>
+        <artifactId>microservice-shop-api</artifactId>
         <groupId>com.wolf</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../microservice-shop-parent/pom.xml</relativePath>
+        <relativePath>../microservice-shop-api/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>microservice-shop-api</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../microservice-shop-member-api</module>
-        <module>../microservice-shop-message-api</module>
-        <module>../microservice-shop-pay-api</module>
-    </modules>
+    <artifactId>microservice-shop-pay-api</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wolf</groupId>
+            <artifactId>microservice-shop-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

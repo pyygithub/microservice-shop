@@ -15,6 +15,7 @@
         <module>../microservice-shop-message</module>
         <module>../microservice-shop-pc-web</module>
         <module>../microservice-shop-weixin</module>
+        <module>../microservice-shop-pay</module>
     </modules>
     <packaging>pom</packaging>
 

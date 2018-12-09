@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-message/microservice-shop-message.iml" filepath="$PROJECT_DIR$/microservice-shop-message/microservice-shop-message.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-message-api/microservice-shop-message-api.iml" filepath="$PROJECT_DIR$/microservice-shop-message-api/microservice-shop-message-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" filepath="$PROJECT_DIR$/microservice-shop-parent/microservice-shop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-pay/microservice-shop-pay.iml" filepath="$PROJECT_DIR$/microservice-shop-pay/microservice-shop-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-shop-pay-api/microservice-shop-pay-api.iml" filepath="$PROJECT_DIR$/microservice-shop-pay-api/microservice-shop-pay-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-pc-web/microservice-shop-pc-web.iml" filepath="$PROJECT_DIR$/microservice-shop-pc-web/microservice-shop-pc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-rabbitmq/microservice-shop-rabbitmq.iml" filepath="$PROJECT_DIR$/microservice-shop-rabbitmq/microservice-shop-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-shop-weixin/microservice-shop-weixin.iml" filepath="$PROJECT_DIR$/microservice-shop-weixin/microservice-shop-weixin.iml" />

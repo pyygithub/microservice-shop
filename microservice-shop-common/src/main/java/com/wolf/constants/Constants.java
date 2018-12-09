@@ -29,6 +29,8 @@ public interface Constants {
     /** 用户登录cookie有效期30天 **/
     int COOKIE_TOKEN_MEMBER_TIME = 60 * 60 * 24 * 29;
 
+    /** 支付token有效时间**/
+    Long PAY_TOKEN_MEMBER_TIME = (long)60 * 15;
 
     /** cookie token名称 **/
     String COOKIE_MEMBER_TOKEN = "cookie_member_token";
@@ -37,4 +39,7 @@ public interface Constants {
     int HTTP_RES_CODE_201 = 201;
     /** SESSION_QQ_OPENID **/
     String SESSION_QQ_OPENID = "qqOpenid";
+
+    /** 支付token前缀 **/
+    String TOKEN_PAY = "TOKEN_PAY";;
 }
