@@ -10,13 +10,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>microservice-shop-api</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../microservice-shop-member-api</module>
-        <module>../microservice-shop-message-api</module>
-        <module>../microservice-shop-pay-api</module>
-        <module>../microservice-shop-order-api</module>
-    </modules>
+    <artifactId>microservice-shop-order</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wolf</groupId>
+            <artifactId>microservice-shop-order-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- springboot整合mybatis -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

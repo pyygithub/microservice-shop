@@ -42,4 +42,6 @@ public interface Constants {
 
     /** 支付token前缀 **/
     String TOKEN_PAY = "TOKEN_PAY";;
+    String PAY_FAIL = "fail";
+    String PAY_SUCCESS = "success";
 }

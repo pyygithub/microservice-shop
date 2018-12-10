@@ -12,6 +12,8 @@
         <module name="microservice-shop-member-api" />
         <module name="microservice-shop-message" />
         <module name="microservice-shop-message-api" />
+        <module name="microservice-shop-order" />
+        <module name="microservice-shop-order-api" />
         <module name="microservice-shop-pay" />
         <module name="microservice-shop-pay-api" />
         <module name="microservice-shop-pc-web" />
@@ -27,6 +29,8 @@
       <module name="microservice-shop-member-api" target="1.8" />
       <module name="microservice-shop-message" target="1.8" />
       <module name="microservice-shop-message-api" target="1.8" />
+      <module name="microservice-shop-order" target="1.8" />
+      <module name="microservice-shop-order-api" target="1.8" />
       <module name="microservice-shop-parent" target="1.8" />
       <module name="microservice-shop-pay" target="1.8" />
       <module name="microservice-shop-pay-api" target="1.8" />

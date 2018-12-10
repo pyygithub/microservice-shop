@@ -26,10 +26,10 @@ public class AlipayConfig {
     public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvnqS7T6oqmJ5SiGzuqo6jzkGW1CuyEWleXMaIXcKzAT4PQ9MHl6jlv6JnxxoXyx5pu6RqDVE404en0Eby8Gde+5nJr/2H3/q1bNgI18YxWJebsix3cKQ2OCsheF5L4PWKrpsZyWVEiXAfl2xnXlFA9hoVVuhBWh1mvkon0XzuGoMa73AuSdW3Xxkda7TKHkw1r6c/qfGWvrMijyoDGEGbZI44TmHwaOUzC8DdKytyhKE5QRe2jKMc7MlDBfwEN91TqDMVBrln9O0JyBK7tL5HB0nosMTvXZfjyXchGXLcKAO1WIzVnqq8R4478mXlKcGDuhHkKtmGFJFsK6gdgYxXwIDAQAB";
 
     // 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-    public static String notify_url = "http://panyangyangoray.imwork.net/notify_url.jsp";
+    public static String notify_url = "http://panyangyangoray.imwork.net/alibaba/callBack/notify_url";
 
     // 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-    public static String return_url = "http://panyangyangoray.imwork.net/return_url.jsp";
+    public static String return_url = "http://panyangyangoray.imwork.net/alibaba/callBack/return_url";
 
     // 签名方式
     public static String sign_type = "RSA2";
