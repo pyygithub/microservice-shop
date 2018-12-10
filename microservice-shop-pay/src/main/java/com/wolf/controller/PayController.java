@@ -25,8 +25,9 @@ public class PayController implements PayApi{
     }
 
     @Override
-    public Result payInfo(@RequestParam(value = "payToken", required = true) String payToken, @RequestHeader HttpHeaders headers) {
-        return null;
+    public Result payInfo(@RequestParam(value = "payToken") String payToken, @RequestHeader HttpHeaders headers) {
+        JSONObject payInfo = payService.payInfo(payToken, headers);
+        return Result.OK(payInfo);
     }
 
 }

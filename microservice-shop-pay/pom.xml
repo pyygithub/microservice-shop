@@ -27,11 +27,7 @@
             <version>1.3.0</version>
         </dependency>
 
-        <!-- 引入支付宝三方开源框架依赖-->
-        <dependency>
-            <groupId>com.github.1991wangliang</groupId>
-            <artifactId>aplipay-sdk</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+
+
     </dependencies>
 </project>

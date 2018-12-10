@@ -18,6 +18,13 @@
             <artifactId>microservice-shop-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <!-- 引入支付宝三方开源框架依赖-->
+        <dependency>
+            <groupId>com.github.1991wangliang</groupId>
+            <artifactId>alipay-sdk</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 </project>

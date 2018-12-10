@@ -15,5 +15,5 @@ public interface PayApi {
 
     // 使用支付令牌查找支付信息
     @GetMapping("/findPayByToken")
-    public Result payInfo(@RequestParam(value = "payToken", required = true) String payToken, @RequestHeader HttpHeaders headers);
+    public Result payInfo(@RequestParam(value = "payToken") String payToken, @RequestHeader HttpHeaders headers);
 }

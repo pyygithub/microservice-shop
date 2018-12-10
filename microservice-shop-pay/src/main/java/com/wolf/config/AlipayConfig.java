@@ -21,19 +21,18 @@ public class AlipayConfig {
     public static String app_id = "2016082000290530";
 
     // 商户私钥，您的PKCS8格式RSA2私钥
-    public static String merchant_private_key = "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCT6q8MYIda7T0pLW7ANGNF/PDlhDmZUGWt/NKAWayeALXd7SHMxmw0Ur5fNPXSUfpC8Ko4Atg03dW0twcOrPF5D/KtZkfmKvUpJlot7KzTGXTHraYrAYCWkEXsUmYPNSdkkYrmt1//icKdCNyAVlfTmA/t4wabEi/Q5e2XOPLewx27fDVNxC1lJRtHELyeOYVifqSyWQrwVWOAh3yIer6RZiHmy248FDULb+b5uHakQRIKW3LaBeU3wsB7+OzYqunfJM2ah4lGj+ubsmOIeGrWaDWJWcq19WHgpI/kG2nHmJg/TYWlzIjhDE95LnlTj5N/A5McyiRtlr9+9xZ+piRrAgMBAAECggEAbzRWLFD6EiMgAzAz/m6kX/7dQUCaaSgneZoEzBgfDZ7tHA7mhWR7/w5iL4PKeDfHlcIHxxpkX8KTo0yjEqZ02JZj1Xd7AJE1RZ2e2L4B5KdTw7dKoTR87zVCTHxaXH6SwiolqnUcyCpS1OrPk/DWEK9W8nrnAXi32C605CcdeNk7V+y47N0exlKOWNfklzqhjzh6YI8U+EDyPrzPQHNvkX6uRHc35Am8PiyfUds3BrVUoI7eoizUaymlOyjvSYfaoBpooIDlLA+cuvt3MAIMyuZKHg9pJvhKxwVMV2MX8m24L3pK4AP9TCPjRdzRYh5OF9O9GwjG4JziuMX71TBHMQKBgQD9O5vTaJ4ueX7pGWoH2MKpzwxd+kkmS9D31cYea9VWiO11jCakp6gtR9KT0DB4vyHxRrNy//nKED82hWHRejzBHZsj9FUvEXJYRFvcue8lUCc087JfjFnXJO/bAYR5jD1wA/joFi9ZI06d8Ui0seD/tegFbcNk6sIGsH0ZqxZSswKBgQCViHb4wtyE8VOR1IBOqJcf2/1DxytAUJXi1/qZUkSWrlGM60PWhrkFAXHZcv8UPgo1SGu3oBYULoMds0iaGJlAgYqdazo0cJUBmOBP2UzzLVv9K032UtljZ6oHBW9tm56a8U3b8d8icyOvGbyXKJ4HGCF3cR1G/6upzuTJ0vFjaQKBgCf1EOhx2IvSxfC3/uAQFt8+eWAWzxYI3odMpv9D2pzV7Eog/DP89G94psSGFC/pUMzGcChUNbDpkV/j+gRYul9qcYFh21Ma+KTu3GPevtpvZFBZp6ql9cMZ4/L1sVaQh102cz8DySLSjGQln2hLrQoMRPkeUbeJx2XQ0VyMf3A7AoGAYJy9+XW1ErP1QahhifDFS5FQLkV1vWUTom/W+s67f/t6tyieOPHsgr5vN4ZkJkj7QXfcGNT2zu1KS5s1UlKIWbQYwiKwhYcjztdePljwrcFlyMn84iSfTemBYm3xk4jTTdqQaoX4nAJ2UMC5J5TXnU/K96f+uYug9uK00W1YBtkCgYEAmQ9Hrsni6LIeM36AKIcdrghpYspLSzqIhxcvmpZXK9p2JNluId5nI3nMAOxFK1yrQfkC8E8jUqVHLTiwH0E7ahbBzqBGl0XSzx6i5d3KKpVnz/GPHq1KLDc/szC8NIkcvlFXZQFE/hBh9XwhxRezF3Kk26eg2mWycsgpJhHW+N4=";
-
+    public static String merchant_private_key = "MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC+epLtPqiqYnlKIbO6qjqPOQZbUK7IRaV5cxohdwrMBPg9D0weXqOW/omfHGhfLHmm7pGoNUTjTh6fQRvLwZ177mcmv/Yff+rVs2AjXxjFYl5uyLHdwpDY4KyF4Xkvg9YqumxnJZUSJcB+XbGdeUUD2GhVW6EFaHWa+SifRfO4agxrvcC5J1bdfGR1rtMoeTDWvpz+p8Za+syKPKgMYQZtkjjhOYfBo5TMLwN0rK3KEoTlBF7aMoxzsyUMF/AQ33VOoMxUGuWf07QnIEru0vkcHSeiwxO9dl+PJdyEZctwoA7VYjNWeqrxHjjvyZeUpwYO6EeQq2YYUkWwrqB2BjFfAgMBAAECggEAZ0kt/Kl6ahHFtTX7MF/4Kwt/7+obLIvfg7CvXbAgUarsNKfj3Z/x0wGo/Hc5/UmvmZ5Jq01fUmZc4nw6p00QqVAH7RIwUrpZS5HdsrBxTS7fB/GZySckxgVmZ55wyRwS+M5n07KkV9fSvnLtyfclPkWNpaNu9/DBvMwYg+05kCg3IJKvf8tVrApUiKz3XNnfQgTLcLJyaWUo3EFMNzNWQFQvN7Mn7bRn5qMZO9CnWiidAZCetsNb+xJPTbMGsLqlz2tJbPLBiWSxPz4APDPUkTglgX7XHgUL4E1dQZ0K702LN/yVtkwNBqbMRUD4mEZZkiPYnw+pO6VA1ODfwP62AQKBgQD/K/MXSqgqNQG/Bb/jApff2jLBGwSlcgjSEFjljFd0/FzC1Ra7s025o3vIbPmAb3x9TDZqZoQIqaW95SXI/0eYpoQF2aGL1tbitf8A/6n/7aDvSQ8g6hrOygFrXhIiA0c46n8NxMXqYU1I8xpHpIdWsBFj3plNoHfnTgGW/0tWXwKBgQC/GN0nQ3DsC36nk6OHYpAbiugZiuqh3ZaGXOo/OPJat7kp3HzRZR3dNjUJOyoUylaVwS1UpeuRicOPy7GKDq4yaOYSMggeWIctFq9fUEJRXqFJEqoGSLLTTS8BgYnlHXCA35JUd2vXMrkmtNjhCMoy+siMaIaFR1xqK3ubf9UFAQKBgQCQviZjROcFIhI+gA1rwNHTmdsGbMQC8R+NwNYcR7JoWqpnniYKDNh+//w8IYyZzSOpk2yeiE5G96xbfjsju6KqNXJYOy4Gu7Qi36epslyFHw8WDLQ3MHRKbo3FkJPqlT92SpYNglvd6pnDUprKnspiYvdKVj9RqD+7hiUiuOfMMwKBgQClI9yCAMMGCUzzjh+kcKWuV5UJ9cWcCfz5sjPwXMr7YIfQSC1JW0O6lgyxJILSIqU+lwkQfK4dQFtS2alccCFTiNlB4iCn8MMoUNFO4fHdlZR1rH5oHc0D01CK0aIT8CP4CrzO58C24KumamR92/W4poZG6FFPvgJ78YXJNGgnAQKBgQDa7v8MqScu9q/WPYb7uTp3+cHODHu7QAMBiw6fcSKNxSibpkLNmrAPd+CZfQXiA+P3GOAOit9wi4Fy2C0bDVjwWSmDeoG8Xbq3VJmuZCT4Ub3Ojb/j956BJelxz2J6DcDlPcLNrkhUizuIyt+hygmKjAxHN8aRBtpf5w5dgNuGoQ==";
     // 支付宝公钥,查看地址：https://openhome.alipay.com/platform/keyManage.htm 对应APPID下的支付宝公钥。
-    public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArWQ03214I6kGAbEo1stqSp522+0JomL5YndJFyiTXYDGyF1OU8HWcq0hoUSX1Yjf+Pd8MNsOugpW9qYJVExbqovRwzRx+6pQMMRJFeL+SaK0UL8lxfSJyNMJdxqv95cSTTAAZguhOWMk4Rpj/WNl4lWQ8pSOWgfZfboLas3rWPVTAAvBzLaCrCYdBlhfNsUUKJHPFfwUD8CeU/iPNJkHHbypaB5M4HXZ3vpUsS36nPTn9SY98x5L8Vywr+jKLOHiLZJDOFFcNlykaKTQRMAIFJjMpiwH2Wmvrjqax/0TIHqrzhAYEMfh6VRsjfY5Fi2PYzdfgKn55XeNAOolFP6QSQIDAQAB";
+    public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvnqS7T6oqmJ5SiGzuqo6jzkGW1CuyEWleXMaIXcKzAT4PQ9MHl6jlv6JnxxoXyx5pu6RqDVE404en0Eby8Gde+5nJr/2H3/q1bNgI18YxWJebsix3cKQ2OCsheF5L4PWKrpsZyWVEiXAfl2xnXlFA9hoVVuhBWh1mvkon0XzuGoMa73AuSdW3Xxkda7TKHkw1r6c/qfGWvrMijyoDGEGbZI44TmHwaOUzC8DdKytyhKE5QRe2jKMc7MlDBfwEN91TqDMVBrln9O0JyBK7tL5HB0nosMTvXZfjyXchGXLcKAO1WIzVnqq8R4478mXlKcGDuhHkKtmGFJFsK6gdgYxXwIDAQAB";
 
     // 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-    public static String notify_url = "http://itmayiedu.tunnel.qydev.com/notify_url.jsp";
+    public static String notify_url = "http://panyangyangoray.imwork.net/notify_url.jsp";
 
     // 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-    public static String return_url = "http://itmayiedu.tunnel.qydev.com/return_url.jsp";
+    public static String return_url = "http://panyangyangoray.imwork.net/return_url.jsp";
 
     // 签名方式
-    public static String sign_type = "RSA";
+    public static String sign_type = "RSA2";
 
     // 字符编码格式
     public static String charset = "utf-8";
@@ -42,7 +41,7 @@ public class AlipayConfig {
     public static String gatewayUrl = "https://openapi.alipaydev.com/gateway.do";
 
     // 支付宝网关
-    public static String log_path = "C:\\";
+    public static String log_path = "/Users/wolf/Desktop";
 
 
 //↑↑↑↑↑↑↑↑↑↑请在这里配置您的基本信息↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑

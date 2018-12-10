@@ -1,6 +1,7 @@
 package com.wolf.service;
 
 import com.alibaba.fastjson.JSONObject;
+import com.alipay.api.AlipayApiException;
 import com.wolf.base.BaseRedisService;
 import com.wolf.base.Result;
 import com.wolf.constants.Constants;
@@ -23,6 +24,9 @@ public class PayService {
 
     @Autowired
     private BaseRedisService baseRedisService;
+
+    @Autowired
+    private AliBaBaManagerImpl aliBaBaManagerImpl;
 
     /**
      * 创建支付token令牌
@@ -48,7 +52,14 @@ public class PayService {
         return result;
     }
 
-    public void payInfo(String payToken) {
+    /**
+     * 支付方法实现
+     *
+     * @param payToken
+     * @param headers
+     * @return
+     */
+    public JSONObject payInfo(String payToken, HttpHeaders headers) {
         // 1.参数验证
         if (StringUtils.isEmpty(payToken)) {
             throw new PayException("token不能为空!");
@@ -66,18 +77,16 @@ public class PayService {
         // 4.判断类型 调用 具体业务接口
         Long typeId = paymentInfo.getTypeId();
         PayManager payManager = null;
-        // 调用支付接口 返回提交支付form表单元素给客户端
+
         if (typeId == 1) {
             payManager = aliBaBaManagerImpl;
         }
-        try {
-            String payInfo = payManager.payInfo(paymentInfo);
-            JSONObject payInfoJSON = new JSONObject();
-            payInfoJSON.put("payInfo", payInfo);
-            return setResultSuccess(payInfoJSON);
-        } catch (AlipayApiException e) {
-            return setResultError("支付错误!");
-        }
 
+        // 5.调用支付接口 返回提交支付form表单元素给客户端
+        String payInfo = payManager.payInfo(paymentInfo);
+        JSONObject payInfoJSON = new JSONObject();
+        payInfoJSON.put("payHtml", payInfo);
+
+        return payInfoJSON;
     }
 }
